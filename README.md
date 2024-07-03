@@ -4,7 +4,7 @@
 
 ## 声明
 
-- 使用本插件前，请先[下载 Pot 划词翻译](www.pot.com)，使用插件前请先打开软件（推荐开机自启）
+- 使用本插件前，请先[下载 Pot 划词翻译](https://pot-app.com/)，使用插件前请先打开软件（推荐开机自启）
 - 本插件只是用来在 Utools 快速中启动 Pot 划词翻译及 OCR
 - 该软件作者在[Github](https://github.com/pot-app/pot-desktop)上，若有软件方面疑问请在[项目的 Issues](https://github.com/pot-app/pot-desktop/issues)提交
 - 本软件的翻译以及 OCR 均可调用 OpenAI 服务
@@ -14,6 +14,8 @@
   - 也可下载 pot 的[其他插件](https://pot-app.com/plugin.html)
 - 软件的默认端口号不要修改
 - 推荐将输入翻译和 OCR 识别加入超级面板
+- 本插件支持 windows,macos
+- 本插件[Github 仓库地址](https://github.com/czh020110/pot-utools)
 
 ## 插件功能关键词
 
