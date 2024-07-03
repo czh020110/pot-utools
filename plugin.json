@@ -1,0 +1,51 @@
+{
+  "pluginName": "pot翻译（支持AI翻译和OCR识别）-Utools",
+  "description": "集成pot翻译到utools中快速启动",
+  "author": "czh020110",
+  "version": "0.0.1",
+  "logo": "pot.png",
+  "preload": "preload.js",
+  "features": [
+    {
+      "code": "pot-interface",
+      "explain": "插件打开界面，配置、使用",
+      "cmds": ["Pot-使用教程"]
+    },
+    {
+      "code": "pot-setting",
+      "explain": "pot的设置（若未弹出请查看任务栏是否已经打开）",
+      "icon": "pot-setting.png",
+      "cmds": ["PotSetting", "Pot设置"]
+    },
+    {
+      "code": "translate-text",
+      "explain": "utools输入框翻译",
+      "cmds": [
+        {
+          "type": "over",
+          "label": "Translate",
+          "minLength": 1,
+          "maxLength": 10000
+        }
+      ]
+    },
+    {
+      "code": "pot-t",
+      "explain": "pot的划词翻译（可utools输入框翻译）",
+      "icon": "pot-T.png",
+      "cmds": ["PotT", "Pot划词翻译"]
+    },
+    {
+      "code": "pot-o",
+      "explain": "pot的OCR识别（可翻译）",
+      "icon": "pot-O.png",
+      "cmds": ["PotO", "OCR", "PotOCR"]
+    },
+    {
+      "code": "pot-s",
+      "explain": "pot输入翻译",
+      "icon": "pot-S.png",
+      "cmds": ["PotS", "翻译", "pot翻译", "pot输入翻译"]
+    }
+  ]
+}
