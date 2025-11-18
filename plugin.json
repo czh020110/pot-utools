@@ -30,20 +30,26 @@
       ]
     },
     {
-      "code": "pot-t",
-      "explain": "pot的划词翻译（可utools输入框翻译）",
-      "icon": "pot-T.png",
-      "cmds": ["PotT", "Pot划词翻译"]
+      "code": "pot-select",
+      "explain": "pot的划词翻译",
+      "icon": "pot-select.png",
+      "cmds": ["Potselect", "Pot划词翻译"]
     },
     {
       "code": "pot-o",
-      "explain": "pot的OCR识别（可翻译）",
+      "explain": "pot的OCR识别",
       "icon": "pot-O.png",
       "cmds": ["PotO", "OCR", "PotOCR"]
     },
     {
+      "code": "pot-ot",
+      "explain": "pot的OCR翻译",
+      "icon": "pot-OT.png",
+      "cmds": ["PotOTrans", "OCR翻译", "PotOCR翻译"]
+    },
+    {
       "code": "pot-s",
-      "explain": "pot输入翻译",
+      "explain": "pot的输入翻译",
       "icon": "pot-S.png",
       "cmds": ["PotS", "翻译", "pot翻译", "pot输入翻译"]
     }
